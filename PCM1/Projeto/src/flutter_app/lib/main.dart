@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'pages/consulta_main.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -36,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   static final List<Widget> _widgetOptions = <Widget>[
     const Text('Home'),
-    const Text('Consultar'),
+    const ConsultaMain(),
     const Text('Cadastrar'),
   ];
 
