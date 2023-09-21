@@ -9,6 +9,7 @@ class Usuario {
     required this.perfil,
   });
 
+  //converte json em usuario
   static Usuario fromJson(json) {
     return Usuario(
       cpf: json['cpf'] ?? '',
