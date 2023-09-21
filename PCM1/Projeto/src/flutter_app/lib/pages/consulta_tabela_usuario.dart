@@ -11,17 +11,20 @@ class ConsultaTabelaUsuario extends StatefulWidget {
 }
 
 class _ConsultaTabelaUsuarioState extends State<ConsultaTabelaUsuario> {
-  //================
+  //============================
   //nome das colunas
-  //================
+  //============================
   final allColumns = <String>[
     'CPF',
     'Sistema',
     'Perfil de Acesso',
   ];
-  //===================================
+  //============================
+  //fim da alteração
+  //============================
+  //==========================================
   //dados fixos para preencher a tabela
-  //===================================
+  //==========================================
   List<Usuario> allUsuarios = [
     const Usuario(
       cpf: '000.000.000-00',
@@ -44,6 +47,9 @@ class _ConsultaTabelaUsuarioState extends State<ConsultaTabelaUsuario> {
       perfil: 'Perfil de Acesso 2 - S002',
     ),
   ];
+  //==========================================
+  //fim da alteração
+  //==========================================
 
   @override
   Widget build(BuildContext context) {
@@ -63,6 +69,9 @@ class _ConsultaTabelaUsuarioState extends State<ConsultaTabelaUsuario> {
                     //nome da tabela
                     //==================
                     'Tabela Usuários',
+                    //==================
+                    //fim da alteração
+                    //==================
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
@@ -84,6 +93,9 @@ class _ConsultaTabelaUsuarioState extends State<ConsultaTabelaUsuario> {
                     DataCell(Text(usuario.cpf)),
                     DataCell(Text(usuario.sistema)),
                     DataCell(Text(usuario.perfil)),
+                    //==========================================
+                    //fim da alteração
+                    //==========================================
                   ]);
                 }).toList(),
               ),
