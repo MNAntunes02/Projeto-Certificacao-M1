@@ -11,11 +11,17 @@ class ConsultaTabelaUsuario extends StatefulWidget {
 }
 
 class _ConsultaTabelaUsuarioState extends State<ConsultaTabelaUsuario> {
+  //================
+  //nome das colunas
+  //================
   final allColumns = <String>[
     'CPF',
     'Sistema',
     'Perfil de Acesso',
   ];
+  //===================================
+  //dados fixos para preencher a tabela
+  //===================================
   List<Usuario> allUsuarios = [
     const Usuario(
       cpf: '000.000.000-00',
@@ -53,6 +59,9 @@ class _ConsultaTabelaUsuarioState extends State<ConsultaTabelaUsuario> {
                 Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
+                    //==================
+                    //nome da tabela
+                    //==================
                     'Tabela Usuários',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
@@ -69,6 +78,9 @@ class _ConsultaTabelaUsuarioState extends State<ConsultaTabelaUsuario> {
                 }).toList(),
                 rows: allUsuarios.map((usuario) {
                   return DataRow(cells: [
+                    //==========================================
+                    //altere para o padrão da classe em questão
+                    //==========================================
                     DataCell(Text(usuario.cpf)),
                     DataCell(Text(usuario.sistema)),
                     DataCell(Text(usuario.perfil)),
