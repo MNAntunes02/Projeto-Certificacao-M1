@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/components/public/dropdownForm.dart';
-import 'package:flutter_app/models/usuario.dart';
+import 'package:flutter_app/components/public/dropdown_form.dart';
 
-class CadastroTabelaMatrizSod extends StatefulWidget {
-  const CadastroTabelaMatrizSod({Key? key}) : super(key: key);
+class CadastroFormMatrizSod extends StatefulWidget {
+  const CadastroFormMatrizSod({Key? key}) : super(key: key);
 
   @override
-  _CadastroTabelaMatrizSodState createState() =>
-      _CadastroTabelaMatrizSodState();
+  _CadastroFormMatrizSodState createState() => _CadastroFormMatrizSodState();
 }
 
 enum SistemaLabel {
@@ -28,8 +26,8 @@ enum PerfilAcessoLabel {
   final String label;
 }
 
-class _CadastroTabelaMatrizSodState extends State<CadastroTabelaMatrizSod> {
-  final _formKey = GlobalKey<FormState>();
+class _CadastroFormMatrizSodState extends State<CadastroFormMatrizSod> {
+  // final _formKey = GlobalKey<FormState>();
 
   final nomeSistema = TextEditingController();
   final idSistema = TextEditingController();

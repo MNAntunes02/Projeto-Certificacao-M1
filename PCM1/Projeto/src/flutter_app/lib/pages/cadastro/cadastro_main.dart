@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/cadastro/cadastro_tabela_matriz_sod.dart';
-import 'package:flutter_app/pages/cadastro/cadastro_tabela_sistema.dart';
+import 'package:flutter_app/pages/cadastro/cadastro_form_matriz_sod.dart';
+import 'package:flutter_app/pages/cadastro/cadastro_form_perfil_acesso.dart';
+import 'package:flutter_app/pages/cadastro/cadastro_form_sistema.dart';
 import 'package:flutter_app/pages/cadastro/cadastro_opcoes.dart';
+import 'package:flutter_app/pages/cadastro/cadastro_form_usuario.dart';
 
 class CadastroMain extends StatelessWidget {
   const CadastroMain({Key? key}) : super(key: key);
@@ -21,8 +23,11 @@ class CadastroMain extends StatelessWidget {
       initialRoute: '/cadastro',
       routes: {
         '/cadastro': (context) => const CadastroOpcoes(),
-        '/cadastro/sistema': (context) => const CadastroTabelaSistema(),
-        '/cadastro/matriz-sod': (context) => const CadastroTabelaMatrizSod(),
+        '/cadastro/sistema': (context) => const CadastroFormSistema(),
+        '/cadastro/matriz-sod': (context) => const CadastroFormMatrizSod(),
+        '/cadastro/perfil-acesso': (context) =>
+            const CadastroFormPerfilAcesso(),
+        '/cadastro/usuario': (context) => const CadastroFormUsuario(),
       },
     );
   }

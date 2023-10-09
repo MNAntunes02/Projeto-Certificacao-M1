@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/components/public/dropdownForm.dart';
 import 'package:flutter_app/components/public/textfield_form.dart';
-import 'package:flutter_app/models/usuario.dart';
 
-class CadastroTabelaSistema extends StatefulWidget {
-  const CadastroTabelaSistema({Key? key}) : super(key: key);
+class CadastroFormSistema extends StatefulWidget {
+  const CadastroFormSistema({Key? key}) : super(key: key);
 
   @override
-  _CadastroTabelaSistemaState createState() => _CadastroTabelaSistemaState();
+  _CadastroFormSistemaState createState() => _CadastroFormSistemaState();
 }
 
-class _CadastroTabelaSistemaState extends State<CadastroTabelaSistema> {
+class _CadastroFormSistemaState extends State<CadastroFormSistema> {
   final _formKey = GlobalKey<FormState>();
 
   final nomeSistema = TextEditingController();

@@ -22,7 +22,7 @@ class CadastroOpcoes extends StatelessWidget {
             CardConsulta(
               image: 'assets/images/acesso.jpg',
               titulo: 'Perfil de Acesso',
-              rota: '/cadastro/sistema',
+              rota: '/cadastro/perfil-acesso',
               icon: Icons.call_split,
               iconAction: Icons.add,
             ),
@@ -41,7 +41,7 @@ class CadastroOpcoes extends StatelessWidget {
             CardConsulta(
               image: 'assets/images/usuario.jpg',
               titulo: 'Perfil de Usuario',
-              rota: '/cadastro/sistema',
+              rota: '/cadastro/usuario',
               icon: Icons.person,
               iconAction: Icons.add,
             ),
