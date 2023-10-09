@@ -21,7 +21,7 @@ class ConsultaOpcoes extends StatelessWidget {
             CardConsulta(
               image: 'assets/images/acesso.jpg',
               titulo: 'Perfil de Acesso',
-              rota: '/consulta/usuario',
+              rota: '/consulta/perfil-acesso',
               icon: Icons.call_split,
             ),
           ],
@@ -32,7 +32,7 @@ class ConsultaOpcoes extends StatelessWidget {
             CardConsulta(
               image: 'assets/images/matriz.jpg',
               titulo: 'Matriz SoD',
-              rota: '/consulta/usuario',
+              rota: '/consulta/matriz-sod',
               icon: Icons.security,
             ),
             CardConsulta(
