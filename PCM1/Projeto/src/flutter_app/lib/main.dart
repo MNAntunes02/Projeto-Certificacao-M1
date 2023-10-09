@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'pages/consulta_main.dart';
+import 'package:flutter_app/pages/consulta/consulta_main.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../components/public/card_consulta.dart';
+import 'package:flutter_app/components/public/card_consulta.dart';
 
 class ConsultaOpcoes extends StatelessWidget {
   const ConsultaOpcoes({Key? key}) : super(key: key);

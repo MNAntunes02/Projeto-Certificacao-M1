@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/consulta_opcoes.dart';
+import 'package:flutter_app/pages/consulta/consulta_opcoes.dart';
 
 import 'consulta_tabela_usuario.dart';
 

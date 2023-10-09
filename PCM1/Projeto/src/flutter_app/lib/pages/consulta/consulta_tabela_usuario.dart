@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:matriz_sod/services/API.dart';
-
-import '../models/usuario.dart';
+import 'package:flutter_app/models/usuario.dart';
 
 class ConsultaTabelaUsuario extends StatefulWidget {
   const ConsultaTabelaUsuario({Key? key}) : super(key: key);
