@@ -7,12 +7,14 @@ class CardConsulta extends StatelessWidget {
     required this.titulo,
     required this.rota,
     required this.icon,
+    required this.iconAction,
   }) : super(key: key);
 
   final String image;
   final String titulo;
   final String rota;
   final IconData icon;
+  final IconData iconAction;
 
   @override
   Widget build(BuildContext context) {
@@ -70,7 +72,7 @@ class CardConsulta extends StatelessWidget {
                         tooltip: 'Consultar',
                         elevation: 0,
                         focusElevation: 0,
-                        child: const Icon(Icons.subject),
+                        child: Icon(iconAction),
                       ),
                     ),
                   ],
