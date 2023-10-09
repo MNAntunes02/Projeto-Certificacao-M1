@@ -15,7 +15,7 @@ class ConsultaOpcoes extends StatelessWidget {
             CardConsulta(
               image: 'assets/images/sistema.jpg',
               titulo: 'Sistema',
-              rota: '/consulta/usuario',
+              rota: '/consulta/sistema',
               icon: Icons.wysiwyg,
             ),
             CardConsulta(

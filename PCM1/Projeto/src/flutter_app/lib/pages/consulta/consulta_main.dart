@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/consulta/consulta_opcoes.dart';
+import 'package:flutter_app/pages/consulta/consulta_tabela_sistema.dart';
 
 import 'consulta_tabela_usuario.dart';
 
@@ -21,6 +22,7 @@ class ConsultaMain extends StatelessWidget {
       routes: {
         '/consulta': (context) => const ConsultaOpcoes(),
         '/consulta/usuario': (context) => const ConsultaTabelaUsuario(),
+        '/consulta/sistema': (context) => ConsultaTabelaSistema(),
       },
     );
   }
