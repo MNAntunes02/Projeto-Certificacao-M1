@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/cadastro/cadastro_main.dart';
 import 'package:flutter_app/pages/consulta/consulta_main.dart';
 
 void main() {
@@ -38,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
   static final List<Widget> _widgetOptions = <Widget>[
     const Text('Home'),
     const ConsultaMain(),
-    const Text('Cadastrar'),
+    const CadastroMain(),
   ];
 
   void _onItemTapped(int index) {
