@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/pages/cadastro/cadastro_tabela_matriz_sod.dart';
+import 'package:flutter_app/pages/cadastro/cadastro_tabela_sistema.dart';
 import 'package:flutter_app/pages/cadastro/cadastro_opcoes.dart';
 
 class CadastroMain extends StatelessWidget {
@@ -19,6 +21,8 @@ class CadastroMain extends StatelessWidget {
       initialRoute: '/cadastro',
       routes: {
         '/cadastro': (context) => const CadastroOpcoes(),
+        '/cadastro/sistema': (context) => const CadastroTabelaSistema(),
+        '/cadastro/matriz-sod': (context) => const CadastroTabelaMatrizSod(),
       },
     );
   }

@@ -34,7 +34,7 @@ class CadastroOpcoes extends StatelessWidget {
             CardConsulta(
               image: 'assets/images/matriz.jpg',
               titulo: 'Matriz SoD',
-              rota: '/cadastro/sistema',
+              rota: '/cadastro/matriz-sod',
               icon: Icons.security,
               iconAction: Icons.add,
             ),
